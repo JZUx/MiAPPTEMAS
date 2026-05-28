@@ -1,7 +1,9 @@
 import { TouchableOpacity, Text, StyleSheet, ViewStyle } from 'react-native';
 import { useTheme } from '../context/ThemeContext';
 
+// Componente CustomButton con variantes primary, secondary y tertiary
 type Variant = 'primary' | 'secondary' | 'tertiary';
+
 
 type Props = {
   title: string;
