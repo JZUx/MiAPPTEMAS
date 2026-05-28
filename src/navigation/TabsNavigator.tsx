@@ -5,6 +5,8 @@ import HomeScreen from '../screens/HomeScreen';
 import ExploreScreen from '../screens/ExploreScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
+// Navegador de tabs con 3 pantallas: Inicio, Explorar y Configuracion
+
 const Tab = createBottomTabNavigator();
 
 export default function TabsNavigator() {
